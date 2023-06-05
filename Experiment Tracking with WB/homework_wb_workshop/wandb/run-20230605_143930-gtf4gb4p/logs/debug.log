@@ -1,0 +1,34 @@
+2023-06-05 14:39:30,598 INFO    Thread-2  :824 [wandb_setup.py:_flush():76] Current SDK version is 0.15.3
+2023-06-05 14:39:30,599 INFO    Thread-2  :824 [wandb_setup.py:_flush():76] Configure stats pid to 824
+2023-06-05 14:39:30,599 INFO    Thread-2  :824 [wandb_setup.py:_flush():76] Loading settings from /home/timur/.config/wandb/settings
+2023-06-05 14:39:30,599 INFO    Thread-2  :824 [wandb_setup.py:_flush():76] Loading settings from /mnt/c/Users/Pizzu/mlops_zoomcamp2023/Experiment Tracking with WB/homework_wb_workshop/wandb/settings
+2023-06-05 14:39:30,599 INFO    Thread-2  :824 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'entity': 'pizzu', 'project': 'green_taxi_prj', 'root_dir': '/mnt/c/Users/Pizzu/mlops_zoomcamp2023/Experiment Tracking with WB/homework_wb_workshop', 'sweep_id': '6csaybnv', 'run_id': 'gtf4gb4p', 'sweep_param_path': '/mnt/c/Users/Pizzu/mlops_zoomcamp2023/Experiment Tracking with WB/homework_wb_workshop/wandb/sweep-6csaybnv/config-gtf4gb4p.yaml'}
+2023-06-05 14:39:30,600 INFO    Thread-2  :824 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-06-05 14:39:30,600 INFO    Thread-2  :824 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'Experiment Tracking with WB/homework_wb_workshop/sweep.py', 'program': 'sweep.py'}
+2023-06-05 14:39:30,602 INFO    Thread-2  :824 [wandb_init.py:_log_setup():507] Logging user logs to /mnt/c/Users/Pizzu/mlops_zoomcamp2023/Experiment Tracking with WB/homework_wb_workshop/wandb/run-20230605_143930-gtf4gb4p/logs/debug.log
+2023-06-05 14:39:30,603 INFO    Thread-2  :824 [wandb_init.py:_log_setup():508] Logging internal logs to /mnt/c/Users/Pizzu/mlops_zoomcamp2023/Experiment Tracking with WB/homework_wb_workshop/wandb/run-20230605_143930-gtf4gb4p/logs/debug-internal.log
+2023-06-05 14:39:30,604 INFO    Thread-2  :824 [wandb_init.py:init():547] calling init triggers
+2023-06-05 14:39:30,604 INFO    Thread-2  :824 [wandb_init.py:init():554] wandb.init called with sweep_config: {'max_depth': 9, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 34}
+config: {}
+2023-06-05 14:39:30,605 INFO    Thread-2  :824 [wandb_init.py:init():596] starting backend
+2023-06-05 14:39:30,606 INFO    Thread-2  :824 [wandb_init.py:init():600] setting up manager
+2023-06-05 14:39:30,621 INFO    Thread-2  :824 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-06-05 14:39:30,641 INFO    Thread-2  :824 [wandb_init.py:init():606] backend started and connected
+2023-06-05 14:39:30,656 INFO    Thread-2  :824 [wandb_run.py:_config_callback():1286] config_cb None None {'max_depth': 9, 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 34}
+2023-06-05 14:39:30,659 INFO    Thread-2  :824 [wandb_init.py:init():700] updated telemetry
+2023-06-05 14:39:30,750 INFO    Thread-2  :824 [wandb_init.py:init():737] communicating run to backend with 60.0 second timeout
+2023-06-05 14:39:31,188 INFO    Thread-2  :824 [wandb_run.py:_on_init():2177] communicating current version
+2023-06-05 14:39:31,364 INFO    Thread-2  :824 [wandb_run.py:_on_init():2186] got version response 
+2023-06-05 14:39:31,364 INFO    Thread-2  :824 [wandb_init.py:init():787] starting run threads in backend
+2023-06-05 14:39:31,557 INFO    Thread-2  :824 [wandb_run.py:_console_start():2158] atexit reg
+2023-06-05 14:39:31,560 INFO    Thread-2  :824 [wandb_run.py:_redirect():2013] redirect: SettingsConsole.WRAP_RAW
+2023-06-05 14:39:31,565 INFO    Thread-2  :824 [wandb_run.py:_redirect():2078] Wrapping output streams.
+2023-06-05 14:39:31,565 INFO    Thread-2  :824 [wandb_run.py:_redirect():2103] Redirects installed.
+2023-06-05 14:39:31,567 INFO    Thread-2  :824 [wandb_init.py:init():829] run started, returning control to user process
+2023-06-05 14:39:31,762 INFO    Thread-2  :824 [wandb_run.py:_finish():1893] finishing run pizzu/green_taxi_prj/gtf4gb4p
+2023-06-05 14:39:31,763 INFO    Thread-2  :824 [wandb_run.py:_atexit_cleanup():2127] got exitcode: 1
+2023-06-05 14:39:31,764 INFO    Thread-2  :824 [wandb_run.py:_restore():2110] restore
+2023-06-05 14:39:31,764 INFO    Thread-2  :824 [wandb_run.py:_restore():2116] restore done
+2023-06-05 14:39:35,086 INFO    Thread-2  :824 [wandb_run.py:_footer_history_summary_info():3469] rendering history
+2023-06-05 14:39:35,088 INFO    Thread-2  :824 [wandb_run.py:_footer_history_summary_info():3501] rendering summary
+2023-06-05 14:39:35,109 INFO    Thread-2  :824 [wandb_run.py:_footer_sync_info():3428] logging synced files

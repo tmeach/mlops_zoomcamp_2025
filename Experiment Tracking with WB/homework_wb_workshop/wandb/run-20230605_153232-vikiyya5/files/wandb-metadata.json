@@ -1,0 +1,84 @@
+{
+    "os": "Linux-5.10.16.3-microsoft-standard-WSL2-x86_64-with-glibc2.29",
+    "python": "3.8.10",
+    "heartbeatAt": "2023-06-05T12:32:33.958480",
+    "startedAt": "2023-06-05T12:32:32.982943",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--wandb_project",
+        "green_taxi_prj",
+        "--wandb_entity",
+        "pizzu",
+        "--data_artifact",
+        "pizzu/green_taxi_prj/NYC-Taxi:v0"
+    ],
+    "state": "running",
+    "program": "sweep.py",
+    "codePath": "Experiment Tracking with WB/homework_wb_workshop/sweep.py",
+    "git": {
+        "remote": "git@github.com:tmeach/mlops_zoomcamp2023.git",
+        "commit": "f8cc0864098fe900db6698b10582c02ca5ffd55d"
+    },
+    "email": "pitsuevt@gmail.com",
+    "root": "/mnt/c/Users/Pizzu/mlops_zoomcamp2023",
+    "host": "DESKTOP-87NE6FD",
+    "username": "timur",
+    "executable": "/usr/bin/python3",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 1800.001,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1800.001,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1800.001,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1800.001,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1800.001,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1800.001,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1800.001,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1800.001,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1800.001,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "total": 250.98248672485352,
+        "used": 8.513835906982422
+    },
+    "memory": {
+        "total": 6.096183776855469
+    }
+}

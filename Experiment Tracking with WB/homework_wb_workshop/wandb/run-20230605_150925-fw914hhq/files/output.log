@@ -1,0 +1,67 @@
+[34m[1mwandb[39m[22m: [32m[41mERROR[39m[49m type preprocessed_dataset specified but this artifact is of type job
+Traceback (most recent call last):
+  File "/home/timur/.local/lib/python3.8/site-packages/wandb/apis/normalize.py", line 41, in wrapper
+    return func(*args, **kwargs)
+  File "/home/timur/.local/lib/python3.8/site-packages/wandb/apis/public.py", line 960, in artifact
+    raise ValueError(
+ValueError: type preprocessed_dataset specified but this artifact is of type job
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "train.py", line 68, in <module>
+    run_train()
+  File "/home/timur/.local/lib/python3.8/site-packages/click/core.py", line 1130, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/timur/.local/lib/python3.8/site-packages/click/core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "/home/timur/.local/lib/python3.8/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/timur/.local/lib/python3.8/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "train.py", line 41, in run_train
+    artifact = wandb.use_artifact(data_artifact, type="preprocessed_dataset")
+  File "/home/timur/.local/lib/python3.8/site-packages/wandb/sdk/wandb_run.py", line 345, in wrapper_fn
+    return func(self, *args, **kwargs)
+  File "/home/timur/.local/lib/python3.8/site-packages/wandb/sdk/wandb_run.py", line 335, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/timur/.local/lib/python3.8/site-packages/wandb/sdk/wandb_run.py", line 2676, in use_artifact
+    artifact = public_api.artifact(type=type, name=name)
+  File "/home/timur/.local/lib/python3.8/site-packages/wandb/apis/normalize.py", line 87, in wrapper
+    raise CommError(message, err).with_traceback(sys.exc_info()[2])
+  File "/home/timur/.local/lib/python3.8/site-packages/wandb/apis/normalize.py", line 41, in wrapper
+    return func(*args, **kwargs)
+  File "/home/timur/.local/lib/python3.8/site-packages/wandb/apis/public.py", line 960, in artifact
+    raise ValueError(
+wandb.errors.CommError: type preprocessed_dataset specified but this artifact is of type job
+Traceback (most recent call last):
+  File "/home/timur/.local/lib/python3.8/site-packages/wandb/apis/normalize.py", line 41, in wrapper
+    return func(*args, **kwargs)
+  File "/home/timur/.local/lib/python3.8/site-packages/wandb/apis/public.py", line 960, in artifact
+    raise ValueError(
+ValueError: type preprocessed_dataset specified but this artifact is of type job
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "train.py", line 68, in <module>
+    run_train()
+  File "/home/timur/.local/lib/python3.8/site-packages/click/core.py", line 1130, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/timur/.local/lib/python3.8/site-packages/click/core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "/home/timur/.local/lib/python3.8/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/timur/.local/lib/python3.8/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "train.py", line 41, in run_train
+    artifact = wandb.use_artifact(data_artifact, type="preprocessed_dataset")
+  File "/home/timur/.local/lib/python3.8/site-packages/wandb/sdk/wandb_run.py", line 345, in wrapper_fn
+    return func(self, *args, **kwargs)
+  File "/home/timur/.local/lib/python3.8/site-packages/wandb/sdk/wandb_run.py", line 335, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/timur/.local/lib/python3.8/site-packages/wandb/sdk/wandb_run.py", line 2676, in use_artifact
+    artifact = public_api.artifact(type=type, name=name)
+  File "/home/timur/.local/lib/python3.8/site-packages/wandb/apis/normalize.py", line 87, in wrapper
+    raise CommError(message, err).with_traceback(sys.exc_info()[2])
+  File "/home/timur/.local/lib/python3.8/site-packages/wandb/apis/normalize.py", line 41, in wrapper
+    return func(*args, **kwargs)
+  File "/home/timur/.local/lib/python3.8/site-packages/wandb/apis/public.py", line 960, in artifact
+    raise ValueError(
+wandb.errors.CommError: type preprocessed_dataset specified but this artifact is of type job
