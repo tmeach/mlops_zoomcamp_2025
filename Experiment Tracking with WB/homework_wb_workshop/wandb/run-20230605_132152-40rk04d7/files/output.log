@@ -1,0 +1,30 @@
+
+[34m[1mwandb[39m[22m:   4 of 4 files downloaded.
+Traceback (most recent call last):
+  File "train.py", line 68, in <module>
+    run_train()
+  File "/home/timur/.local/lib/python3.8/site-packages/click/core.py", line 1130, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/timur/.local/lib/python3.8/site-packages/click/core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "/home/timur/.local/lib/python3.8/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/timur/.local/lib/python3.8/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "train.py", line 55, in run_train
+    "MSE": mean_squared_error(y, y_pred)
+NameError: name 'y' is not defined
+Traceback (most recent call last):
+  File "train.py", line 68, in <module>
+    run_train()
+  File "/home/timur/.local/lib/python3.8/site-packages/click/core.py", line 1130, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/timur/.local/lib/python3.8/site-packages/click/core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "/home/timur/.local/lib/python3.8/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/timur/.local/lib/python3.8/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "train.py", line 55, in run_train
+    "MSE": mean_squared_error(y, y_pred)
+NameError: name 'y' is not defined
