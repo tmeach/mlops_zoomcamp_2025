@@ -86,7 +86,7 @@ def train_best_model(
             "seed": 42,
         }
 
-        ml .log_params(best_params)
+        mlflow.log_params(best_params)
 
         booster = xgb.train(
             params=best_params,
