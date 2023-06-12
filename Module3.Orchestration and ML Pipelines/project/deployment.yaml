@@ -1,13 +1,13 @@
 deployments:
-- name: taxi_local_data
+- name: null
   version: null
   tags: []
   description: null
   schedule: {}
   flow_name: null
-  entrypoint: project/orchestrate_artifact.py:main_flow
+  entrypoint: null
   parameters: {}
   work_pool:
-    name: zoompool
+    name: null
     work_queue_name: null
     job_variables: {}
