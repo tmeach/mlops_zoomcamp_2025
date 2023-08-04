@@ -94,7 +94,7 @@ class KinesisCallback:
 
 def create_kinesis_client():
     '''
-    Create a kinesis client 
+    Create a kinesis client
     '''
     endpoint_url = os.getenv('KINESIS_ENDPOINT_URL')
 

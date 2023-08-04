@@ -1,0 +1,6 @@
+
+# Игнорировать папки и их содержимое
+/.ipynb_checkpoints/
+/.vscode/
+/__pycache__/
+/.pytest_cache/

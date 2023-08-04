@@ -1,0 +1,11 @@
+
+# Игнорировать папки и их содержимое
+/.ipynb_checkpoints/
+/.prefect/
+/__pycache__/
+/mlruns/1/
+
+# Игнорировать файлы
+.prefectignore
+commands.txt
+alternative_models.txt
