@@ -1,0 +1,13 @@
+boto3
+moto
+unittest
+mlflow
+scikit-learn
+pytest
+unittest
+deepdiff
+pylint
+black
+isort
+pre-commit
+yfinance

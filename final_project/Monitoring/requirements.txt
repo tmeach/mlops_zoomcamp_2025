@@ -1,0 +1,12 @@
+prefect
+tqdm
+requests
+joblib
+pyarrow
+psycopg2
+evidently 
+pandas
+numpy
+scikit-learn
+jupyter
+matplotlib

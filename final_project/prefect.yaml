@@ -3,47 +3,33 @@
 # control along with your flow code.
 
 # Generic metadata about this project
-name: Final_project
+name: final_project
 prefect-version: 2.10.18
 
 # build section allows you to manage and build docker images
-build:
+build: null
 
 # push section allows you to manage if and how this project is uploaded to remote locations
-push:
+push: null
 
 # pull section allows you to provide instructions for cloning this project in remote locations
 pull:
 - prefect.deployments.steps.git_clone:
     repository: git@github.com:tmeach/mlops_zoomcamp2023.git
     branch: mlps
-    access_token:
+    access_token: null
 
 # the deployments section allows you to provide configuration for deploying flows
 deployments:
-- name:
-  version:
+- name: null
+  version: null
   tags: []
-  description:
+  description: null
   schedule: {}
-  flow_name:
-  entrypoint:
+  flow_name: null
+  entrypoint: null
   parameters: {}
   work_pool:
-    name:
-    work_queue_name:
+    name: null
+    work_queue_name: null
     job_variables: {}
-- name: deployment_1
-  version:
-  tags: []
-  description:
-  entrypoint: sp500_prediction_model_1.py:main_flow
-  parameters: {}
-  work_pool:
-    name: zoompool
-    work_queue_name:
-    job_variables: {}
-  schedule:
-    interval: 10.0
-    anchor_date: '2023-08-04T12:33:04.034680+00:00'
-    timezone: UTC
