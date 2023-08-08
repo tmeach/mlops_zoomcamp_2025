@@ -1,7 +1,7 @@
 ###
 ### A complete description of a Prefect Deployment for flow 'main-flow'
 ###
-name: training_deployment
+name: main-flow/training_deployment 
 description: null
 version: 9ba253f683ee392e69b3f2cf19d9850f
 # The work queue that will handle this deployment's runs
