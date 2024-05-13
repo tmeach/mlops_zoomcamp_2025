@@ -1,7 +1,0 @@
-{
-    "python.testing.pytestArgs": [
-        "BestPractice"
-    ],
-    "python.testing.unittestEnabled": false,
-    "python.testing.pytestEnabled": true
-}
