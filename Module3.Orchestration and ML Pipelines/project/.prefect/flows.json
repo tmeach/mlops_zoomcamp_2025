@@ -1,4 +1,0 @@
-{
-  "main-flow": "orchestrate.py:main_flow",
-  "main-flow-art": "orchestrate_artifact.py:main_flow_art"
-}
