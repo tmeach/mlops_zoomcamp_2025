@@ -1,0 +1,15 @@
+artifact_uri: file:///home/timur/work_hub/mlops_zoomcamp_2024/02-experiment-tracking/homework/mlruns/0/a24e4c20b3c2491183a0e278d242d547/artifacts
+end_time: 1716846470950
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a24e4c20b3c2491183a0e278d242d547
+run_name: lyrical-foal-767
+run_uuid: a24e4c20b3c2491183a0e278d242d547
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716846414282
+status: 3
+tags: []
+user_id: timur
