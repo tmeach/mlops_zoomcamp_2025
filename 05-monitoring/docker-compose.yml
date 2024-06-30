@@ -62,7 +62,9 @@ services:
       - back-tier
 
   adminer:
+    command: php -S 0.0.0.0:8080 -t /var/www/html
     image: adminer
+
     restart: always
     ports:
       - "8080:8080"
