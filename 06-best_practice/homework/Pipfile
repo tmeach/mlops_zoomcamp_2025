@@ -9,6 +9,8 @@ mlflow = "*"
 scikit-learn = "==1.0.2"
 pytest = "*"
 awscli = "*"
+fsspec = "*"
+s3fs = "*"
 
 [dev-packages]
 pytest = "*"

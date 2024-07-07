@@ -21,10 +21,10 @@ def prepare_data(df, categorical):
 def test_prepare():
     # Test data
     test_data = [
-        (None, None, dt(1, 1), dt(1, 10)),   # поездка 9 минут (подходит)
-        (1, 1, dt(1, 2), dt(1, 10)),         # поездка 8 минут (подходит)
-        (1, None, dt(1, 2, 0), dt(1, 2, 59)),# поездка 59 секунд (не подходит)
-        (3, 4, dt(1, 2, 0), dt(2, 2, 1)),    # поездка 24 часа и 1 секунда (не подходит)
+        (None, None, dt(1, 1), dt(1, 10)),
+        (1, 1, dt(1, 2), dt(1, 10)),
+        (1, None, dt(1, 2, 0), dt(1, 2, 59)),
+        (3, 4, dt(1, 2, 0), dt(2, 2, 1)),
     ]
 
     columns = ['PULocationID', 'DOLocationID', 'tpep_pickup_datetime', 'tpep_dropoff_datetime']
@@ -32,8 +32,8 @@ def test_prepare():
 
     # Expected data
     expected_data = [
-        (-1, -1, dt(1, 1), dt(1, 10), 9.0),  # поездка 9 минут
-        (1, 1, dt(1, 2), dt(1, 10), 8.0),       # поездка 8 минут
+        (-1, -1, dt(1, 1), dt(1, 10), 9.0),
+        (1, 1, dt(1, 2), dt(1, 10), 8.0),
     ]
 
     expected_columns = ['PULocationID', 'DOLocationID', 'tpep_pickup_datetime', 'tpep_dropoff_datetime', 'duration']
