@@ -1,4 +1,4 @@
-## MLops_Zoomcamp 2024
+## MLops_Zoomcamp 2025
 Took a part in [MLOps Zoomcamp 2024](https://github.com/DataTalksClub/mlops-zoomcamp/tree/main) by [DataTalksClub](https://github.com/DataTalksClub). In this repo my course progress 
 
 Here's a syllabus of the course:
