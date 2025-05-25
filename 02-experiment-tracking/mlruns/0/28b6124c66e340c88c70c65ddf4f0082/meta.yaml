@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/pitsuevt/work_main/learning/datatalks/mlops_zoomcamp_2025/02-experiment-tracking/mlruns/0/28b6124c66e340c88c70c65ddf4f0082/artifacts
+end_time: 1748199161984
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 28b6124c66e340c88c70c65ddf4f0082
+run_name: rogue-squid-593
+run_uuid: 28b6124c66e340c88c70c65ddf4f0082
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748199160097
+status: 3
+tags: []
+user_id: pitsuevt

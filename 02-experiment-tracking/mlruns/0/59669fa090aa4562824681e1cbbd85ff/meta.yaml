@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/pitsuevt/work_main/learning/datatalks/mlops_zoomcamp_2025/02-experiment-tracking/mlruns/0/59669fa090aa4562824681e1cbbd85ff/artifacts
+end_time: 1748198936357
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 59669fa090aa4562824681e1cbbd85ff
+run_name: wistful-horse-884
+run_uuid: 59669fa090aa4562824681e1cbbd85ff
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748198936320
+status: 4
+tags: []
+user_id: pitsuevt
