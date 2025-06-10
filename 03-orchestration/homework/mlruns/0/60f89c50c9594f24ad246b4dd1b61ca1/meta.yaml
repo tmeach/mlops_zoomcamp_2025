@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/pitsuevt/work_main/learning/datatalks/mlops_zoomcamp_2025/03-orchestration/homework/mlruns/0/60f89c50c9594f24ad246b4dd1b61ca1/artifacts
+end_time: 1749591076711
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 60f89c50c9594f24ad246b4dd1b61ca1
+run_name: enchanting-stork-579
+run_uuid: 60f89c50c9594f24ad246b4dd1b61ca1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749591072836
+status: 3
+tags: []
+user_id: pitsuevt

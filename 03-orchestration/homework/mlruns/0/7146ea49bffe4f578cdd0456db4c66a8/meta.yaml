@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/pitsuevt/work_main/learning/datatalks/mlops_zoomcamp_2025/03-orchestration/homework/mlruns/0/7146ea49bffe4f578cdd0456db4c66a8/artifacts
+end_time: 1749590834347
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7146ea49bffe4f578cdd0456db4c66a8
+run_name: adorable-hare-848
+run_uuid: 7146ea49bffe4f578cdd0456db4c66a8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749590830397
+status: 3
+tags: []
+user_id: pitsuevt

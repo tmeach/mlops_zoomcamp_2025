@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1749591076709
+current_stage: None
+description: null
+last_updated_timestamp: 1749591076709
+name: taxi-duration-model
+run_id: 60f89c50c9594f24ad246b4dd1b61ca1
+run_link: null
+source: file:///Users/pitsuevt/work_main/learning/datatalks/mlops_zoomcamp_2025/03-orchestration/homework/mlruns/0/60f89c50c9594f24ad246b4dd1b61ca1/artifacts/model
+status: READY
+status_message: null
+storage_location: file:///Users/pitsuevt/work_main/learning/datatalks/mlops_zoomcamp_2025/03-orchestration/homework/mlruns/0/60f89c50c9594f24ad246b4dd1b61ca1/artifacts/model
+user_id: null
+version: 2
