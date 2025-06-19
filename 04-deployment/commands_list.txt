@@ -1,0 +1,9 @@
+# build docker container 
+docker build -t ml_workflow_basic .
+
+# run docker container 
+docker run -it ml_workflow_basic python main_workflow.py --year 2023 --month 5
+
+
+# очистить кэш сборки Docker
+docker buildx prune --all

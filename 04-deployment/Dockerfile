@@ -1,12 +1,20 @@
-FROM public.ecr.aws/lambda/python:3.9
+FROM agrigorev/zoomcamp-model:mlops-2024-3.10.13-slim
 
+# Обновление pip
 RUN pip install -U pip
-RUN pip install pipenv 
 
-COPY [ "Pipfile", "Pipfile.lock", "./" ]
+# Установка pipenv
+RUN pip install pipenv
 
+# Копирование файлов Pipfile и Pipfile.lock в контейнер
+COPY ["Pipfile", "Pipfile.lock", "./"]
+
+# Установка зависимостей проекта
 RUN pipenv install --system --deploy
 
-COPY [ "lambda_function.py", "./" ]
+# Копирование основного скрипта в контейнер
+COPY ["main_workflow.py", "./"]
 
-CMD [ "lambda_function.lambda_handler" ]
+
+# Настройка командной строки для запуска скрипта с аргументами
+CMD ["python", "main_workflow.py", "--year", "2023", "--month", "04"]

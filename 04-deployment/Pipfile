@@ -4,8 +4,9 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-scikit-learn = "==1.6.1"
+numpy = "*"
 pandas = "*"
+scikit-learn = "==1.6.1"
 mlflow = "*"
 
 [dev-packages]
